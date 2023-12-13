@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Godot 4.2 Project Template"
+config/name="Card Framework"
 config/version="1.0.0"
 run/main_scene="res://main.tscn"
 config/use_custom_user_dir=true
