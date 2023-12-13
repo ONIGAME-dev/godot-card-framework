@@ -1,0 +1,73 @@
+# Attributes
+[attr]txt      text eol=lf
+[attr]bin      filter=lfs diff=lfs merge=lfs -text binary
+
+# All wildcard
+*              text=auto
+
+# Git
+.gitattributes txt export-ignore
+.gitignore     txt export-ignore
+.gitkeep       txt export-ignore
+
+# Generic
+*.json         txt
+*.md           txt diff=markdown
+*.txt          txt
+*.cfg          txt
+*.csv          txt
+
+# C#
+*.cs           txt
+
+# Godot
+*.gd           txt
+*.gdshader     txt
+*.import       txt
+*.shader       txt
+*.tres         txt
+*.tscn         txt
+
+# Backups and templates
+*.backup       txt
+*.bak          txt
+*.bkp          txt
+*.dist         txt
+
+### Binary
+
+# Godot
+*.scn          bin
+*.anim         bin
+*.theme        bin
+*.res          bin
+
+# Images
+*.aseprite     bin
+*.kra          bin
+*.png          bin
+*.raw          bin
+*.svg          bin
+*.webp         bin
+*.xcf          bin
+
+# Fonts
+*.otf          bin
+*.ttf          bin
+
+# Audio
+*.ogg          bin
+*.wav          bin
+
+# 3D
+*.blend        bin
+*.dae          bin
+*.fbx          bin
+*.glb          bin
+*.gltf         bin
+
+# Miscellaneous binaries and executables
+*.bin          bin
+*.exe          bin
+*.jar          bin
+*.x86_64       bin
