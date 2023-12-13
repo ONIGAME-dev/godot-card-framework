@@ -3,5 +3,10 @@
     "name": "@bendn/gdcli",
     "tarball": "https://registry.npmjs.org/@bendn/gdcli/-/gdcli-2.0.2.tgz",
     "version": "2.0.2"
+  },
+  {
+    "name": "@sometimes_youwin/gut",
+    "tarball": "https://registry.npmjs.org/@sometimes_youwin/gut/-/gut-7.3.0.tgz",
+    "version": "7.3.0"
   }
 ]
