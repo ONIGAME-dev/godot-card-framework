@@ -1,5 +1,6 @@
 {
   "packages": {
     "@bendn/gdcli": "^2"
+    "@sometimes_youwin/gut": "^7.3"
   }
 }
